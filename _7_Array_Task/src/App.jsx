@@ -3,6 +3,7 @@ import Child1 from "./Comp/Child1";
 import Child2 from "./Comp/Child2";
 import Data from "../src/JsFile/Data";
 import Box from "./Comp/Box";
+import Spile from "./Comp/Spile";
 
 function App() {
   // const [name,setName] = useState("Vraj")
@@ -56,9 +57,10 @@ function App() {
   return (
     <>
 
-      <div className="w-[400px] h-[100px] mt-[200px] m-auto flex flex-wrap justify-center">
+      {/* <div className="w-[400px] h-[100px] mt-[200px] m-auto flex flex-wrap justify-center">
         {list}
-      </div>
+      </div> */}
+      <Spile/>
 
     </>
   );
