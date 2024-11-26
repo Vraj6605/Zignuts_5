@@ -1,10 +1,11 @@
-import React from 'react'
+import React, { useEffect,useState } from 'react'
+import Counter from './Components/Counter'
+import UseEffectConcept from './Components/useEffectConcept';
 
 function App() {
+
   return (
-    <div>
-      <h1>Hello</h1>
-    </div>
+   <UseEffectConcept/>
   )
 }
 
