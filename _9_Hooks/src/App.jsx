@@ -1,11 +1,9 @@
-import React, { useEffect,useState } from 'react'
+import React, { useEffect,useState,useContext } from 'react'
 import Counter from './Components/Counter'
-import UseEffectConcept from './Components/useEffectConcept';
 
 function App() {
-
   return (
-   <UseEffectConcept/>
+    <Counter/>
   )
 }
 
